@@ -1,5 +1,5 @@
 h1 a {
-	color: #E06CF5;
+	color: #FE8300;
 	font-family: 'Lobster';
 }
 
@@ -8,7 +8,7 @@ body {
 }
 
 .page-header {
-    background-color: #E06CF5;
+    background-color: #ff9400;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -17,7 +17,6 @@ body {
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
-	text-align: center;
 }
 
 .content {
@@ -29,7 +28,6 @@ h1, h2, h3, h4 {
 }
 
 .date {
-    float: right;
     color: #828282;
 }
 
@@ -44,7 +42,7 @@ h1, h2, h3, h4 {
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
     float: right;
-	font-size: 26pt;
+    font-size: 26pt;
     margin-right: 20px;
 }
 
@@ -53,5 +51,5 @@ h1, h2, h3, h4 {
 }
 
 .post h1 a, .post h1 a:visited {
-    color: #E06CF5;
+    color: #000000;
 }
