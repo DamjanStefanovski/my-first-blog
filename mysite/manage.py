@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# manage.py is a script that helps with management of the site
 import os
 import sys
 

@@ -1,3 +1,7 @@
+# settings.py file contains the configuration of your website
+# Here I've added the App, checked the DB, templates,timezone and security
+
+
 """
 Django settings for mysite project.
 
