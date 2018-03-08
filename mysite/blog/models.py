@@ -25,3 +25,7 @@ class Post(models.Model):  #this line defines our model (it is an object)
 
 # To let Django know about the models created and in order to create tables for the models in our database,
 # python manage.py makemigration blog - command will do just that.
+
+# In the shell Querysets can be checked with Post.objects.all() command after importing the Post from blog.models
+# for p in Post.objects.raw('SELECT * FROM blog_post'):
+#...     print(p)
