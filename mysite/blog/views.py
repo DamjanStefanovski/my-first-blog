@@ -1,3 +1,4 @@
+from django.contrib import messages
 from django.shortcuts import render
 from django.utils import timezone
 from django.shortcuts import render, get_object_or_404, redirect
@@ -20,6 +21,8 @@ def post_new(request):
            post.author = request.user
            post.published_date = timezone.now()
            post.save()
+           # message sucess
+           messages.success(request, "Sucecessfully Created")
            return redirect('post_detail', pk=post.pk)
     else:
         form = PostForm()
